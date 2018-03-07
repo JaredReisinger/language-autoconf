@@ -1,0 +1,29 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-javascript/blob/master/snippets/javascript.cson
+
+'.source.autoconf':
+
+  'autoconf prerequisite':
+      prefix: 'prereq'
+      body: 'AC_PREREQ([2.69])'
+
+  'AC_INIT boilerplate':
+      prefix: 'init'
+      body: '''
+            AC_INIT(
+              [${1:packagename}],
+              [${2:version}],
+              [${3:bugreports}],
+              [${4:something}],
+              [${5:url}])
+            '''
+
+  'standard header checks':
+      prefix: 'header'
+      body: '''
+            AC_HEADER_STDC
+            AC_HEADER_STDBOOL
+            AC_HEADER_DIRENT
+            AC_HEADER_TIME
+            AC_CHECK_HEADERS([${1:header...}])
+            '''

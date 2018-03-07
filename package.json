@@ -1,0 +1,14 @@
+{
+  "name": "language-autoconf",
+  "version": "0.0.1-alpha",
+  "description": "Autoconf support in Atom",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/JaredReisinger/language-autoconf",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

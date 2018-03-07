@@ -1,0 +1,9 @@
+# If you want some examples of settings, check out:
+# https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
+
+'.source.automake':
+  editor:
+    commentStart: '# '
+    tabLength: 8
+    tabType: 'hard'
+    softTabs: false
